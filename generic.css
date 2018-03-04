@@ -1,0 +1,10 @@
+* {
+	font-family: arial;
+}
+#style1 {
+	font-weight: bold;
+}
+.style_textbox1 {
+	/* font-weight: bold; */
+	border: 2px solid green;
+}
