@@ -12,13 +12,9 @@
 <body>
     <h1 class="center">Tady se budou zobrazovat nabidky lyzarskych vyletu.</h1>
     <div id="buttons" class="buttons_textarea">
-        <!-- 
-        Predstav si, ze texty budou velmi dlouhe. Hruza. Nadefinuj je jako konstanty v JS. Stejne tak natvrdo nadefinuj v JS elemId. 
-        Budes pak volat insertText jen s jednim parametrem - ID textu. Napr.: insertText('about');
-        -->
-        <button id="button1" type="button" onClick="insertText('textarea1','Ahoj, tato nabidka je jiz fuc.')">Nabidka 1</button>
-        <button id="button2" type="button" onClick="insertText('textarea1','Ahoj, tato nabidka je jiz fuc2.')">Nabidka 2</button>
-        <button id="button3" type="button" onClick="insertText('textarea1','Ahoj, tato nabidka je jiz fuc3.')">Nabidka 3</button>
+        <button id="button1" type="button" onClick="insertText('textarea1', insertText1)">Nabidka 1</button>
+        <button id="button2" type="button" onClick="insertText('textarea1', insertText2)">Nabidka 2</button>
+        <button id="button3" type="button" onClick="insertText('textarea1', insertText3)">Nabidka 3</button>
     </div>
     <div id="textarea" class="buttons_textarea">
         <textarea disabled="disabled" id="textarea1">PLACEHOLDER</textarea>
