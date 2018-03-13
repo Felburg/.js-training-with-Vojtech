@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HW_001_Insert static text</title>
+    <meta name="author" content="Ondrej Zienert">
+    <meta name="description" content="Simple HTML 001">
+    <link rel="stylesheet" type="text/css" href="data/generic.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="data/buttons_textarea.css" media="screen"/>
+    <script src=data/insertText.js></script>
+
+<body>
+    <h1 class="center">Tady se budou zobrazovat nabidky lyzarskych vyletu.</h1>
+    <div id="buttons" class="buttons_textarea">
+        <button id="button1" type="button" onClick="insertText(insertText1)">Nabidka 1</button>
+        <button id="button2" type="button" onClick="insertText(insertText2)">Nabidka 2</button>
+        <button id="button3" type="button" onClick="insertText(insertText3)">Nabidka 3</button>
+    </div>
+    <div id="textarea" class="buttons_textarea">
+        <textarea disabled="disabled" id="textarea1">PLACEHOLDER</textarea>
+    </div>
+</body>
+</html>
