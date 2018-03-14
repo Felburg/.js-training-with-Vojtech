@@ -6,6 +6,5 @@ Please follow basics:
   3. Follow up other good practice.
 
 --- List of projects and their version ---
-
-HTML_CHARLIE_001 (v1.0.0)
-HTML_VOJTA_001 (v1.1.0)
+  HTML_CHARLIE_001 (v1.0.0)
+  HTML_VOJTA_001 (v1.1.0)
