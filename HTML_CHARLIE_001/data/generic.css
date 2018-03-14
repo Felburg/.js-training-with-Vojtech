@@ -1,0 +1,20 @@
+* {
+	font-family: arial;
+}
+#style1 {
+	font-weight: bold;
+}
+.style_textbox1 {
+	/* font-weight: bold; */
+	border: 2px solid green;
+}
+.rq {
+	color: #FF0000;
+	font-size: 15px;
+}
+label span, .required{
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 0 0 0;
+}
